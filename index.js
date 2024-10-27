@@ -25,9 +25,9 @@ const apolloServer = new ApolloServer(
             }
             type Mutation{
                 createUser(
-                    name:String,
-                    age:Int,
-                    hasMacbook:Boolean
+                    name:String!,
+                    age:Int!,
+                    hasMacbook:Boolean!
                 ):Boolean,
                 updateUser(
                     id:ID!,

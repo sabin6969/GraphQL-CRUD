@@ -13,7 +13,7 @@ const userSchema = new mongoose.Schema(
         },
         hasMacbook: {
             type: Boolean,
-            required: false,
+            required: true,
         }
     }
 );
